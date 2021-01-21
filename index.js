@@ -18,6 +18,6 @@ function mapToDouble(sourceArray) {
 }
 
 for (let i = 0; i < sourceArray.length; i++) {
-  sourceArray[i] = - sourceArray[i];
+  sourceArray[i] = sourceArray[i] * sourceArray[i];
 }
 return sourceArray;
